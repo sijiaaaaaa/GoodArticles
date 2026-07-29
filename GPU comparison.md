@@ -19,3 +19,14 @@
 | **TDP** | 700W | 700W | 1,000W | 750W | 1,000W | 750–1,400W |
 | **Launch date** | H1 2023 | Q2 2024 | 2025 | Dec 2023 | Oct 2024 | Mid-2025 |
 | **Est. unit price** | $25–40K | $30–40K | $30–40K | **$10–15K** | ~$15–20K | ~$20–30K |
+
+
+## The performance gap: specs vs reality
+
+MLPerf Training v5.0 (June 2025) marked **AMD's first-ever training submission** — a significant milestone. Key results:
+
+- **NVIDIA GB200 NVL72** trained Llama 3.1 405B in **10 minutes** (5,120 GPUs), delivering 3.2× faster training per GPU versus Hopper.
+
+- **AMD MI325X** (8 GPUs) completed Llama 2 70B LoRA fine-tuning in **21.75 minutes — 8% faster than NVIDIA H200** in the same configuration.
+
+- **AMD MI355X** achieved near-parity with B200 on Llama 2 70B LoRA (10.18 min vs. 9.85 min).
